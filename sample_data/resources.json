@@ -64,7 +64,7 @@
         "owner": "demo-platform-team",
         "cost_center": "DEMO-100"
       },
-      "encryption_enabled": false,
+      "encryption_enabled": true,
       "block_public_access": true
     },
     {
