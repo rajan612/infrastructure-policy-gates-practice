@@ -1,0 +1,203 @@
+{
+  "note": "All entries are fictional and are not deployed infrastructure.",
+  "resources": [
+    {
+      "id": "demo-bucket-01",
+      "type": "s3",
+      "tags": {
+        "environment": "testing",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "encryption_enabled": true,
+      "block_public_access": true
+    },
+    {
+      "id": "demo-bucket-02",
+      "type": "s3",
+      "tags": {
+        "environment": "staging",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "encryption_enabled": true,
+      "block_public_access": true
+    },
+    {
+      "id": "demo-bucket-03",
+      "type": "s3",
+      "tags": {
+        "environment": "development",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "encryption_enabled": true,
+      "block_public_access": true
+    },
+    {
+      "id": "demo-bucket-04",
+      "type": "s3",
+      "tags": {
+        "environment": "testing",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "encryption_enabled": true,
+      "block_public_access": true
+    },
+    {
+      "id": "demo-bucket-05",
+      "type": "s3",
+      "tags": {
+        "environment": "staging",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "encryption_enabled": true,
+      "block_public_access": true
+    },
+    {
+      "id": "demo-bucket-06",
+      "type": "s3",
+      "tags": {
+        "environment": "development",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "encryption_enabled": true,
+      "block_public_access": true
+    },
+    {
+      "id": "demo-table-01",
+      "type": "dynamodb",
+      "tags": {
+        "environment": "testing",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "encryption_enabled": true,
+      "point_in_time_recovery": true
+    },
+    {
+      "id": "demo-table-02",
+      "type": "dynamodb",
+      "tags": {
+        "environment": "staging",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "encryption_enabled": true,
+      "point_in_time_recovery": true
+    },
+    {
+      "id": "demo-table-03",
+      "type": "dynamodb",
+      "tags": {
+        "environment": "development",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "encryption_enabled": true,
+      "point_in_time_recovery": true
+    },
+    {
+      "id": "demo-table-04",
+      "type": "dynamodb",
+      "tags": {
+        "environment": "testing",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "encryption_enabled": true,
+      "point_in_time_recovery": true
+    },
+    {
+      "id": "demo-table-05",
+      "type": "dynamodb",
+      "tags": {
+        "environment": "staging",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "encryption_enabled": true,
+      "point_in_time_recovery": true
+    },
+    {
+      "id": "demo-table-06",
+      "type": "dynamodb",
+      "tags": {
+        "environment": "development",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "encryption_enabled": true,
+      "point_in_time_recovery": true
+    },
+    {
+      "id": "demo-function-01",
+      "type": "lambda",
+      "tags": {
+        "environment": "testing",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "logging_enabled": true,
+      "timeout_seconds": 30
+    },
+    {
+      "id": "demo-function-02",
+      "type": "lambda",
+      "tags": {
+        "environment": "staging",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "logging_enabled": true,
+      "timeout_seconds": 30
+    },
+    {
+      "id": "demo-function-03",
+      "type": "lambda",
+      "tags": {
+        "environment": "development",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "logging_enabled": true,
+      "timeout_seconds": 30
+    },
+    {
+      "id": "demo-function-04",
+      "type": "lambda",
+      "tags": {
+        "environment": "testing",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "logging_enabled": true,
+      "timeout_seconds": 30
+    },
+    {
+      "id": "demo-function-05",
+      "type": "lambda",
+      "tags": {
+        "environment": "staging",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "logging_enabled": true,
+      "timeout_seconds": 30
+    },
+    {
+      "id": "demo-function-06",
+      "type": "lambda",
+      "tags": {
+        "environment": "development",
+        "owner": "demo-platform-team",
+        "cost_center": "DEMO-100"
+      },
+      "logging_enabled": true,
+      "timeout_seconds": 30
+    }
+  ]
+}
